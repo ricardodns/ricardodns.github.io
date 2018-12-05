@@ -1,154 +1,54 @@
 {
 	"result": [
 		{
-			"identifier": "carne",
-			"name": "Beef",
-			"description": "Former flesh of an animal",
-			"deathValue": 50,
-			"cost": 300,
-			"speed": 20,
-			"maxHealth": 450,
-			"range": 0.0,
-			"damage": 40,
-			"spawnCooldown": 5.5,
-			
-			"walkAnimationInfo": {
-				"timeToComplete": 0.875,
-				"startFrame": 1,
-				"finishFrame": 21,
-				"name": "Walk"
-			},
-			"idleAnimationInfo": {
-				"timeToComplete": 2,
-				"startFrame": 1,
-				"finishFrame": 48,
-				"name": "Idle"
-			}
+			"beef": [
+				{
+					"name": "Beef",
+					"description": "Former flesh of an animal",
+					"not": {"name": "Chicken", "description":"Somewhat remembers cheese in some aspect"},
+					"deathValue": 50,
+					"cost": 300,
+					"speed": 20,
+					"maxHealth": 450,
+					"range": 0.0,
+					"damage": 40,
+					"spawnCooldown": 5.5,
+				}
+			]
 		},
-    {
-			"identifier": "coxinha",
-			"name": "Chicken",
-			"description": "Former flesh of an animal",
-			"deathValue": 50,
-			"cost": 300,
-			"speed": 20,
-			"maxHealth": 450,
-			"range": 0.0,
-			"damage": 40,
-			"spawnCooldown": 5.5,
-			
-			"walkAnimationInfo": {
-				"timeToComplete": 1,
-				"startFrame": 1,
-				"finishFrame": 24,
-				"name": "Walk"
-			},
-			"idleAnimationInfo": {
-				"timeToComplete": 2,
-				"startFrame": 1,
-				"finishFrame": 48,
-				"name": "Idle"
-			}
+		{
+			"brocolis": [
+				{
+					"name": "Broco Lee",
+					"description": "This is a little tree",
+					"not": {"name": "Pumpkin", "description":"Somewhat remembers cheese in some aspect"},
+					"deathValue": 10,
+					"cost": 50,
+					"speed": 60,
+					"maxHealth": 75,
+					"range": 000,
+					"damage": 23,
+					"spawnCooldown": 1.8
+				}
+			]
 		},
-    {
-			"identifier": "queijo",
-			"name": "Queijito",
-			"description": "Byproduct of a cow's motherly nutrition",
-			"deathValue": 15,
-			"cost": 120,
-			"speed": 40,
-			"maxHealth": 150,
-			"range": 350,
-			"damage": 40,
-			"spawnCooldown": 3,
-			
-			"walkAnimationInfo": {
-				"timeToComplete": 1,
-				"startFrame": 1,
-				"finishFrame": 24,
-				"name": "Walk"
-			},
-			"idleAnimationInfo": {
-				"timeToComplete": 2,
-				"startFrame": 1,
-				"finishFrame": 48,
-				"name": "Idle"
-			}
-		},
-    {
-			"identifier": "tofu",
-			"name": "Tofu",
-			"description": "Somewhat remembers cheese in some aspect",
-			"deathValue": 15,
-			"cost": 120,
-			"speed": 40,
-			"maxHealth": 150,
-			"range": 350,
-			"damage": 40,
-			"spawnCooldown": 3,
-			
-			"walkAnimationInfo": {
-				"timeToComplete": 1.0416,
-				"startFrame": 1,
-				"finishFrame": 25,
-				"name": "Walk"
-			},
-			"idleAnimationInfo": {
-				"timeToComplete": 2,
-				"startFrame": 1,
-				"finishFrame": 48,
-				"name": "Idle"
-			}
-		},
-    {
-			"identifier": "brocolis",
-			"name": "Broco Lee",
-			"description": "This is a little tree",
-			"deathValue": 10,
-			"cost": 50,
-			"speed": 60,
-			"maxHealth": 75,
-			"range": 000,
-			"damage": 23,
-			"spawnCooldown": 1.6,
-		
-			"walkAnimationInfo": {
-				"timeToComplete": 1.0416,
-				"startFrame": 1,
-				"finishFrame": 25,
-				"name": "Walk"
-			},
-			"idleAnimationInfo": {
-				"timeToComplete": 2,
-				"startFrame": 1,
-				"finishFrame": 48,
-				"name": "Idle"
-			}
-		},
-    {
-			"identifier": "abobora",
-			"name": "Pumpkin",
-			"description": "Halloween art suply",
-			"deathValue": 10,
-			"cost": 50,
-			"speed": 60,
-			"maxHealth": 75,
-			"range": 000,
-			"damage": 23,
-			"spawnCooldown": 1.6,
-		
-			"walkAnimationInfo": {
-				"timeToComplete": 1,
-				"startFrame": 1,
-				"finishFrame": 24,
-				"name": "Walk"
-			},
-			"idleAnimationInfo": {
-				"timeToComplete": 2,
-				"startFrame": 1,
-				"finishFrame": 48,
-				"name": "Idle"
-			}
+		{
+			"queijo": [
+				{
+					"name": "Queijito",
+					"description": "Byproduct of a cow's motherly nutrition",
+					"not": {"name": "Tofu", "Halloween art suply"},
+					"deathValue": 15,
+					"cost": 120,
+					"speed": 40,
+					"maxHealth": 150,
+					"range": 350,
+					"damage": 40,
+					"spawnCooldown": 3
+				}
+			]
 		}
 	]
 }
+		
+		
